@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | NeST Digital</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Page specific styling */
+    .services-hero {
+      background: #f5f7fb;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .services-hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .services-hero p {
+      font-size: 18px;
+      color: #555;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .service-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-card img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <div class="container">
+
+        <!-- Company Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="https://nestdigital.com/wp-content/uploads/2023/04/Group-82.png"
+                 alt="NeST Digital Logo" height="50">
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation + Buttons -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-semibold" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-semibold active" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-semibold" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-semibold" href="careers.html">Careers</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-semibold" href="business.html">Business</a>
+                </li>
+
+                <!-- Contact Button -->
+                <li class="nav-item ms-3">
+                    <a href="contact.html" class="btn btn-primary rounded-pill px-4 py-2">Contact Us</a>
+                </li>
+
+                <!-- Search Icon -->
+                <li class="nav-item ms-3">
+                    <i class="bi bi-search fs-5" style="cursor:pointer;"></i>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="services-hero">
+    <h1>Our Services</h1>
+    <p>We provide innovative, reliable, and scalable digital solutions that empower your business to grow and succeed.</p>
+  </section>
+
+  <!-- Services Cards -->
+  <section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Our Services</h2>
+    <div class="row g-4">
+
+      <!-- Card 1: Cloud Service -->
+      <div class="col-md-4">
+        <a href="cloud-services.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://wallpaperaccess.com/full/9556919.jpg" class="card-img-top rounded-top-4" alt="Cloud Service">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cloud Service</h5>
+              <p class="card-text">Secure and scalable cloud solutions to support your business operations and growth.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 2: Cyber Security -->
+      <div class="col-md-4">
+        <a href="cyber-security.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://wallpapers.com/images/hd/cybersecurity-background-wjrgl4k1buq1aa5h.jpg" class="card-img-top rounded-top-4" alt="Cyber Security">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cyber Security</h5>
+              <p class="card-text">Protecting your data and systems with advanced, reliable security measures.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 3: Data Engineering -->
+      <div class="col-md-4">
+        <a href="data-engineering.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://wallpaperaccess.com/full/4386359.jpg" class="card-img-top rounded-top-4" alt="Data Engineering">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Data Engineering</h5>
+              <p class="card-text">Building smart data pipelines to turn raw data into valuable insights.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 4: IT Consulting -->
+      <div class="col-md-4">
+        <a href="it-consulting.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://www.keenesystems.com/hubfs/blog-images/bigstock-It-Consultant-Presenting-Tag-C-435713942.jpg" class="card-img-top rounded-top-4" alt="IT Consulting">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">IT Consulting</h5>
+              <p class="card-text">Expert advice and strategies to optimize your IT infrastructure and business processes.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 5: Digital Marketing -->
+      <div class="col-md-4">
+        <a href="digital-marketing.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.4ygMA4_GyzHtsBq_yy4rPwHaE7?pid=Api&P=0&h=180" class="card-img-top rounded-top-4" alt="Digital Marketing">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Digital Marketing</h5>
+              <p class="card-text">Boost your brand’s online presence and reach with effective marketing campaigns.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 6: AI & Machine Learning -->
+      <div class="col-md-4">
+        <a href="ai-ml.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow rounded-4 border-0 service-card">
+            <img src="https://as2.ftcdn.net/v2/jpg/02/85/28/87/1000_F_285288707_1XVVhzW1iFhMMuYis5PnDfhnTwufqrQh.jpg" class="card-img-top rounded-top-4" alt="AI & Machine Learning">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">AI & Machine Learning</h5>
+              <p class="card-text">Implement intelligent solutions that leverage AI to automate and enhance business processes.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 NeST DIGITAL. All rights reserved.</p>
+      <p>
+        <a href="index.html" class="text-white me-3">Home</a>
+        <a href="about.html" class="text-white me-3">About</a>
+        <a href="contact.html" class="text-white">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
